@@ -1,0 +1,1 @@
+docker run -p 6333:6333 -v $(pwd)/data:/qdrant/storage:z qdrant/qdrant
